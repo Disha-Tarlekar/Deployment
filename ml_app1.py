@@ -169,4 +169,44 @@ else:
         st.info("No prediction logs found — try first prediction.")
 
 # ---------------- FOOTER ----------------
-st.markdown("<div class='footer'>🚀 Built with ❤️ by <b>Disha Tarlekar</b> — Customer Churn ML Project</div>", unsafe_allow_html=True)
+st.markdown("""
+<style>
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: #0d1117;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #9fb3ff;
+    border-top: 1px solid #1f2633;
+    font-weight: 500;
+}
+.footer b {
+    color: #dbe4ff;
+}
+.footer:hover {
+    color: #ffffff;
+    transition: 0.3s;
+}
+.footer .line2 {
+    font-size: 14px;
+    opacity: 0.8;
+}
+.footer .line3 {
+    font-size: 13px;
+    opacity: 0.6;
+    font-style: italic;
+}
+</style>
+
+<div class="footer">
+    🚀 Built with ❤️ by <a href="https://www.linkedin.com/in/disha-tarlekar" target="_blank"><b>Disha Tarlekar</b></a><br>
+    📌 Customer Churn Machine Learning Segmentation App<br>
+    🔍 Empowering businesses with data-driven customer retention
+</div>
+""", unsafe_allow_html=True)
+
+
