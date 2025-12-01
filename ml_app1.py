@@ -169,4 +169,12 @@ else:
         st.info("No prediction logs found — try first prediction.")
 
 # ---------------- FOOTER ----------------
-st.markdown("<div class='footer'>🚀 Built with ❤️ by <b>Disha Tarlekar</b> — Customer Churn ML Project</div>", unsafe_allow_html=True)
+st.markdown(
+    "<p style='text-align:center; font-size:15px; font-weight:600; "
+    "color:#ffffff; margin-top:40px;'>"
+    "Built By: <span style='color:#00c3ff;'>Disha Tarlekar</span>"
+    "</p>",
+    unsafe_allow_html=True
+)
+
+
