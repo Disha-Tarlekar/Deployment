@@ -5,8 +5,8 @@ import joblib
 import pandas as pd
 
 # Load model and scaler
-kmeans = joblib.load("C:\Users\admin\OneDrive\Desktop\Customer_churn_analysis\ML Deployment\kmeans_model.pkl")
-scaler = joblib.load("C:\Users\admin\OneDrive\Desktop\Customer_churn_analysis\ML Deployment\scaler.pkl")
+kmeans = joblib.load(r"C:\Users\admin\OneDrive\Desktop\Customer_churn_analysis\ML Deployment\kmeans_model.pkl")
+scaler = joblib.load(r"C:\Users\admin\OneDrive\Desktop\Customer_churn_analysis\ML Deployment\scaler.pkl")
 
 # ========== PAGE CONFIG ==========
 st.set_page_config(page_title="Customer Segmentation App", layout="wide")
@@ -124,4 +124,5 @@ if predict_clicked:
     st.success("📁 Prediction saved successfully.")
     st.balloons()
     st.write("🚀 App is running — hosted on Render!")
+
 
